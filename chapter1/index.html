@@ -12,8 +12,8 @@
     <div id="react-root"></div>
     <script>
       const heading = document.createElement("h2");
-      console.log(heading)
-      console.log(typeof heading)
+      console.log(heading);
+      console.log(typeof heading);
       heading.innerHTML = "Hello World!(JAVASCRIPT code)";
       const root = document.getElementById("root");
       root.appendChild(heading);
@@ -32,7 +32,9 @@
         {},
         "Hello World!(REACT code)"
       );
-      const reactRoot = ReactDOM.createRoot(document.getElementById("react-root"));
+      const reactRoot = ReactDOM.createRoot(
+        document.getElementById("react-root")
+      );
       reactRoot.render(reactHeading);
     </script>
   </body>
